@@ -1,6 +1,6 @@
 package com.gatlingproject.requests
 
-import com.testingexcellence.config.Config.app_url
+import com.gatlingproject.config.Config.app_url
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import java.util.UUID

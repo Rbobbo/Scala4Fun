@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:RichiestaDatiTelematici xmlns:eai4u="http://eai4u.unipol.it/event/header" xmlns:p="http://essig.unipol.it/sx/unico/realtime/RichiestaDatiTelematici" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://eai4u.unipol.it/event/RichiestaDatiTelematici RichiestaDatiTelematici.xsd ">
+  <event>
+    <header versione="">
+      <SistemiIntegrati direzione="1">
+        <Src SrcEnte="" SrcSist=""/>
+        <Dest DestEnte="" DestSist=""/>
+      </SistemiIntegrati>
+      <Servizio modalita="1" versione="">
+        <codServ>codServ</codServ>
+        <codFunzione>codFunzione</codFunzione>
+        <codEvt>codEvt</codEvt>
+        <canale>canale</canale>
+        <locale>locale</locale>
+      </Servizio>
+      <Evento corrId="" evtId="" evtRes="0">
+        <operatoreId>operatoreId</operatoreId>
+        <evtTms>2001-12-31T12:00:00</evtTms>
+        <evtValidita>2001-12-31T12:00:00</evtValidita>
+        <chiaveLogica>chiaveLogica</chiaveLogica>
+      </Evento>
+      <Sorgente>
+        <agent>agent</agent>
+        <applicazione>applicazione</applicazione>
+        <device>SMARTPHONE</device>
+        <os>os</os>
+        <media>APP</media>
+        <userFamily>DIREZIONE</userFamily>
+      </Sorgente>
+      <Errore errCod="" errEnte="" errSistema="">
+        <errDesc>errDesc</errDesc>
+      </Errore>
+    </header>
+   <body>
+      <compagnia>1</compagnia>
+      <sinistro>1-8201-2019-0018274</sinistro>
+      <targa>BD682JC</targa>
+      <contractOwner>1</contractOwner>
+      <dataOraSinistro>2019-01-17T15:40:00Z</dataOraSinistro>
+      <indirizzo>Via San Giovanni Bosco,70029,Santeramo in Colle</indirizzo>
+      <flagCard>false</flagCard>
+      <flagFlotte>true</flagFlotte>
+      <codResponsabilita>ND</codResponsabilita>
+      <utenzaLiquidatoreIncaricato>UGA000$0</utenzaLiquidatoreIncaricato>
+      <provinciaDichiarata>BA</provinciaDichiarata>
+      <attoriDanno>C</attoriDanno>
+      <numLatDichiarata></numLatDichiarata>
+      <numLongDichiarata></numLongDichiarata>
+      <dataAperturaSinistro>2019-03-14T08:00:00Z</dataAperturaSinistro>
+      <tipoFirma>0</tipoFirma>
+      <nomeAssicurato>MARIO BIANCHI</nomeAssicurato>
+      <garanziaImpattata>030</garanziaImpattata>       
+      <idCrash></idCrash>
+      <chiusuraAssistenza>Non Applicabile</chiusuraAssistenza>
+      <idVoucher>97788802</idVoucher>
+    </body>
+  </event>
+</p:RichiestaDatiTelematici>
