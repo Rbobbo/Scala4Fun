@@ -37,7 +37,7 @@
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-plugin.version}</version>
         <configuration>
-          <simulationClass>com.testingexcellence.simulations.${simulation}</simulationClass>
+          <simulationClass>com.gatlingproject.simulations.${simulation}</simulationClass>
           <propagateSystemProperties>true</propagateSystemProperties>
         </configuration>
       </plugin>
